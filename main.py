@@ -1,8 +1,8 @@
-from app.ingestion_pipeline import load_docs
+from app.ingestion_pipeline import process_docs
 
 
 def main():
-    load_docs()
+    process_docs()
 
 
 if __name__ == "__main__":

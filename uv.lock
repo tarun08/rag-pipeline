@@ -2273,6 +2273,7 @@ name = "rag-pipeline"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "google-genai" },
     { name = "langchain" },
     { name = "langchain-chroma" },
     { name = "langchain-community" },
@@ -2284,6 +2285,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "google-genai", specifier = ">=1.73.1" },
     { name = "langchain", specifier = ">=1.2.15" },
     { name = "langchain-chroma", specifier = ">=1.1.0" },
     { name = "langchain-community", specifier = ">=0.4.1" },
